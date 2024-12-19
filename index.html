@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="txt">مرحبا بالزوار الكرام لكم عملة TLY24 ابداء يااضاقة السيولة على Pancakeswap</div>
     <main>
         <img class="logo" src="TLY24 png.png" alt="" width="220px">
         <h1 class="h1">TLY24</h1>
@@ -21,6 +22,27 @@
 
         body{
             background: linear-gradient(-90deg, rgba(0, 0, 255, 0.333), rgb(245, 245, 255), rgba(0, 0, 255, 0.425));
+        }
+
+
+        .txt{
+            color: chartreuse;
+            text-shadow: 0 1px black,
+            0 -1px black;
+            font-size: 14px;
+            font-family: cursive;
+            text-align: right;
+            background: none;
+            animation: txt 8s linear infinite;
+        }
+
+        @keyframes txt {
+            from{
+                translate: 100%;
+            }
+            to{
+                translate: -100%;
+            }
         }
 
         main{
